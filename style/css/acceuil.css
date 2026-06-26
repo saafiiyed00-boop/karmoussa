@@ -1,0 +1,27 @@
+.header_container img , .header_container nav{
+    display: inline-block;
+    vertical-align: middle;
+ }
+ nav{ 
+    margin-left: 80%;
+ }
+ .header_container{
+    background-color: #CDB0A1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 3px solid #A78C9B;
+}
+.footer_container ul , .footer_container img{
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .footer_container{
+    background-color:#CDB0A1 ;
+    border-radius: 8px;
+    border: 3px solid #A78C9B;
+    
+}
+ul{
+    margin-left: 40%;
+    
+    }
