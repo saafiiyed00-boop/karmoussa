@@ -264,8 +264,68 @@
 // console.log(sum)
 // // prints 103
 
+const username = document.querySelector('input[type="text"]');
+const email = document.querySelector('input[type="email"]');
+const phone = document.querySelector('input[type="tel"]');
+const password = document.querySelector('input[type="password"]');
+const checkbox = document.querySelector('input[type="checkbox"]');
+
+const usernamErr = document.getElementById('nameerr');
+const telErr = document.getElementById('telerr');
+const emailErr = document.getElementById('emailerr');
+const passErr = document.getElementById('passerr');
 
 
+// =========================
+// Expressions régulières
+// =========================
+
+// Email
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// Téléphone : exactement 8 chiffres
+const phoneRegex = /^\d{8}$/;
+
+// Mot de passe :
+// au moins 6 caractères
+// au moins une lettre
+// au moins un chiffre
+// au moins un caractère spécial
+const passwordRegex =
+/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&]).{6,}$/;
+
+function register(){
+    validateUsername();
+    validateEmail();
+    validateTel();
+    validatePassword();
+}
+function validateUsername(){
+    if(username.value.length < 3){
+        console.log('haha')
+        usernamErr.textContent="username must contain  at least 3 characters."
+    }
+}
+function validateEmail(){
+    if (!emailRegex.test(email.value)) {
+        emailErr.textContent = "Invalid email address.";
+        isValid = false;
+    }
+}
+function validateTel(){
+     if (!phoneRegex.test(phone.value)) {
+        telErr.textContent =
+            "Phone number must contain exactly 8 digits.";
+        isValid = false;
+    }
+}
+function validatePassword(){
+     if (!passwordRegex.test(password.value)) {
+        passErr.textContent =
+            "Password must contain at least 6 characters, one letter, one number and one special character.";
+        isValid = false;
+    }
+}
 
 
 

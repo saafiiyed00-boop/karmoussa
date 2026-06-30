@@ -25,19 +25,14 @@
                         <div class="cont">
                              <label>nom et prenom</label> 
                         <input type="text">
-                        </div>
-                        <div class="cont">
-                            <label id="f">age</label> <input type="number">
-                        </div>
+                        </div><span id="nameerr"></span>
                         <div class="cont">
                             <label id="g">telephone</label><input type="tel">
-                        </div>
+                        </div> <span id="telerr"></span>
                         <div class="cont">
                             <label id="h">email</label> <input type="email">
-                        </div>
-                        <div class="cont">
-                            <label id="j">date de naissance</label><input type="date">
-                        </div>
+                        </div><span id="emailerr"></span>
+
                         <div class="cont" >
                             <label>genre</label> 
                             <label class="gender_block">f</label>
@@ -75,9 +70,17 @@
         <option value="Kébili">Kébili</option>
       </select>
  </div>
+                        <div>
+                            <label>password</label><input type="password">
+                        </div>
+ <div>
+    <input type="checkbox">
+    <label  id="check-label"> Show password</label>
+ </div>
+ <span id="passerr"></span>
 <div class="lspd">
                             <input type="reset" id="a" >
-                            <input type="submit" id="b">
+                            <button type="button" id="b" onclick="register()">valider</button>
                         </div>
      
       </fieldset>
