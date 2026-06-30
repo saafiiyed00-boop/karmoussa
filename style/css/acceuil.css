@@ -25,3 +25,60 @@ ul{
     margin-left: 40%;
     
     }
+h1{
+    color: #80586D;
+    
+    }
+#img1{
+    border-radius: 80%;
+    width: 250px;
+    height: 250px;
+    
+    }
+    #img2{
+    border-radius: 80%;
+    width: 250px;
+    height: 250px;
+    
+    }
+   #table{
+   border-style: solid;
+   border-color: transparent;
+   margin-left: 25%;
+    }
+    td{
+    text-align: center;
+    
+    }
+    #premium{
+    width: 200px;
+    height: 200px;
+    }
+    #delivery{
+    width: 200px;
+    height: 200px;
+    }
+    #help-desk{
+    width: 200px;
+    height: 200px;
+    }
+    #tbl{
+    
+   border-style: solid;
+   border-color: transparent;
+    }
+.gg{
+    width: 100%;
+    height: 300px;
+    margin: 2px;
+
+    }
+.gg img{
+    
+   width: 100%;
+   height:100% ;
+   border-radius: 8px;
+   border: 1px solid transparent;
+
+    }
+    

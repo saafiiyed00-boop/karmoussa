@@ -25,3 +25,68 @@ ul{
     margin-left: 40%;
     
     }
+    .mmm{
+    background-color: #BED3C3;
+    
+    }
+    #a{
+    color: white;
+    padding: 9px;
+    border: 1px solid red;
+    border-radius: 8px;
+    background-color: red;
+    margin: 8px;
+    
+    }
+    #b{
+    color: white;
+    padding: 9px;
+    border: 1px solid green;
+    border-radius: 8px;
+    background-color: green;
+    margin: 8px;
+    }
+
+form{
+   margin-top: 50px;
+   width: 50%;
+
+}
+label{
+   margin-right: 50px;
+}
+#f{
+   margin-right: 124px;
+}
+#g{
+   margin-right: 87px;
+}
+#h{
+   margin-right: 110px;
+}
+#j{
+   margin-right: 65px;
+}
+
+.gender_block{
+   margin-left: 60px;
+}
+#op{
+  margin-left: 110px; 
+}
+.lspd{
+margin-left: 250px;
+}
+.cont{
+   margin-bottom: 20px;
+}
+legend{
+   font-weight: bolder;
+}
+form{
+   width: 40%;
+   margin-left: 380px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+#h{text-align: center;}
